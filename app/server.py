@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1nkxS-RSn-pSwTfvPObUW9O_PFDC1APR6'
-export_file_name = 'bevelrymodel.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Wso-8qCwR5HhkPKxAA8_uqIDYA9zYNym'
+export_file_name = 'export.pkl'
 
 classes = ['gerbils', 'hamsters', 'mice']
 path = Path(__file__).parent
